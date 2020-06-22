@@ -6,7 +6,8 @@ export default {
    input: 'src/index.js',
    output: {
       dir: 'dist',
-      format: 'esm',   
+      format: 'esm',
+      sourcemap: true,
    },
    preserveSymlinks: true,
    context: 'window',
